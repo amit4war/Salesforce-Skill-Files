@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "**/.sf": true
+    },
+    "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
+    "editor.formatOnSave": true,
+    "xml.preferences.showSchemaDocumentationType": "none"
+}

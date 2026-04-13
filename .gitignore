@@ -1,0 +1,27 @@
+# Node / editor
+node_modules/
+coverage/
+.nyc_output/
+.vscode/*.code-workspace
+
+# Salesforce local state
+.sfdx/
+.sf/
+.localdevserver/
+
+# OS / tooling
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+
+# Package manager
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

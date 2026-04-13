@@ -1,0 +1,13 @@
+{
+    "name": "sm-accelerator",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Shared Salesforce DX accelerator project structure for team-based development.",
+    "scripts": {
+        "org:list": "sf org list",
+        "test:apex": "sf apex run test --test-level RunLocalTests --code-coverage --result-format human",
+        "validate": "sf project deploy validate --source-dir force-app --test-level RunLocalTests",
+        "deploy": "sf project deploy start --source-dir force-app --test-level RunLocalTests",
+        "retrieve": "sf project retrieve start --manifest manifest/package.xml"
+    }
+}
