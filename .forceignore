@@ -1,0 +1,20 @@
+# Git and local workspace artifacts
+.gitignore
+.vscode/
+.ai/
+.claude/
+docs/
+
+# Node and local tooling
+node_modules/
+coverage/
+
+# Profiles are intentionally not source-managed by default
+**/profiles/
+
+# Ignore local notes or temporary metadata
+**/*.bak
+**/*.tmp
+
+**/jsconfig.json
+**/.eslintrc.json
